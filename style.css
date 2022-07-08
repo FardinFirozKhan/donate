@@ -1,0 +1,187 @@
+body{
+    width: auto;
+    margin: 0 auto;
+  
+}
+.donateNow{
+    height: 550px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/donation0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.content{
+    color: white;
+    
+    margin-bottom: 50%;
+    text-align: center;
+    line-height: 0%;
+    position:absolute;
+    top: 35%; bottom: 0; left: 0; right: 0;
+    margin: auto;
+}
+.btn{
+    margin-top: 15px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    background-color: #FF5959;
+}
+.btn:hover{
+    color: white;
+    background-color: brown;
+}
+.donateToday{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.donateToday p{
+    margin-top:35px;
+    line-height: 0%;
+}
+.btn2{
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 30px;
+    padding: 30px 20px 30px 20px ;
+    background-color: #F9F9F9;
+    border: 1px  solid #F9F9F9;
+    border-radius: 5%;
+}
+.donateToday button:hover{
+    color: #FF5959;
+    background-color: #FFEDED;
+    border: 2px solid #FF5959;
+}
+.input{
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 0 0;
+   width: 65%;
+   border: 0;
+   border-bottom: 1px solid grey;
+   outline: 0;
+   font-size: 1.3rem;
+   padding: 7px 0;
+}
+.btn3{
+    margin-top: 15px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5959;
+}
+.donation{
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #FF5959;
+    color: white;
+    width: 30%;
+    
+}
+.donatePlan{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+}
+.donatePlan p{
+    margin-top:35px;
+
+}
+.frame{
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.food{
+    width: 30%;
+    height: auto;
+    background-color: #EDF5F6;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 5%;
+    margin-right: 20px;
+}
+.food:hover{
+    background-color:#adc3c6 ;
+}
+.shelter{
+    width: 30%;
+    height: auto;
+    background-color: #FFEEEE;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 5%;
+    margin-right: 20px;
+}
+.shelter:hover{
+    background-color: #ecd6d6;
+}
+.education{
+    width: 30%;
+    height: auto;
+    background-color: #FFF4D5;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 5%;
+    margin-right: 20px;
+}
+.education:hover{
+    background-color: #e1d2a9;
+}
+.document{
+    margin-bottom: 70px;
+}
+.docs{
+    width: 50%;
+	float: left;
+}
+
+.btn-contribute{
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.btn-contribute:hover{
+    color: white;
+    background-color: #f84646;
+    padding: 15px 20px;
+}
+.update{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.email{
+    margin-top: 70px;
+    height: 200px;
+    background-color: #FFF4D5;
+    align-items: center;
+    padding: 70px;
+    border-radius: 10px;
+}
+.email input{
+    border-radius: 5px;
+    width: 30%;
+    height: 40px;
+    background-color: #D8D8D8;
+    border: none;
+}
+.email button{
+    height: 40px;
+    width:18% ;
+    color: white;
+    background-color: #FF5959;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius:5px ;
+}
+

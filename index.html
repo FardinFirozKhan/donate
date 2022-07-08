@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Donate Today</title>
+</head>
+<body>
+    <div class="container donateNow">
+        
+    
+    <div class="content">
+        <h1>Let’s Help Those Who Are</h1>
+       <h1> More In Need</h1>
+       <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli</p>
+        <p>deterruisset. No duo populo animal noluisse, enim</p>
+        <a class="btn" target="_blank" href="https://www.savethechildren.org/us/where-we-work/bangladesh">Donate Now</a>
+    </div>
+    </div>
+    <div class="donateToday">
+        <h1>Donate Today</h1>
+        <p>orem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli</p>
+           <p> deterruisset. No duo populo animal noluisse, enim</p>
+           <button class="btn2" onclick="set(100)"><span id="btn100">100</span>tk</button>
+           <button class="btn2" onclick="set(200)"><span id="btn200">200</span>tk</button>
+           <button class="btn2" onclick="set(500)"><span id="btn500">500</span>tk</button>
+           <button class="btn2" onclick="set(1000)"><span id="btn1000">1000</span>tk</button>
+           <button class="btn2" onclick="set(5000)"><span id="btn5000">5000</span>tk</button> <br>
+           <input class="input" type="text" name="amount" id="input" placeholder="Other Amount (TK)"> <br>
+           <button class="btn3" onclick="amount()" id="donate">Donate Now</button>
+           <div class="donation" id="donation">
+               <h6 >Your Donated </h6>
+                <p><span id="total"></span>TK</p>
+           </div>
+    </div>
+    <div class="container donatePlan">
+        <h1>Our Donate Plan</h1>
+        <p>orem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli</p>
+           <p> deterruisset. No duo populo animal noluisse, enim</p>
+           <div class="row frame">
+            <div class="col-md-4 food">
+                <img src="icons/food.png" alt="" srcset="">
+                <h4>Food for a family</h4>
+                <p>Amet minim mollit non deserunt <br>
+                    ullamco est sit aliqua dolor do amet <br>
+                    sint. Velit officia consequat duis enim <br>
+                    velit mollit</p>
+            </div>
+            <div class="col-md-4 shelter">
+                <img src="icons/shelter.png" alt="" srcset="">
+                <h4>Shelter for a family</h4>
+                <p>Amet minim mollit non deserunt <br>
+                    ullamco est sit aliqua dolor do amet <br>
+                    sint. Velit officia consequat duis enim <br>
+                    velit mollit</p>
+            </div>
+            <div class="col-md-4 education">
+                <img src="icons/Frame-1.png" alt="" srcset="">
+                <h4>Education for a child</h4>
+                <p>Amet minim mollit non deserunt <br>
+                    ullamco est sit aliqua dolor do amet <br>
+                    sint. Velit officia consequat duis enim <br>
+                    velit mollit</p>
+            </div>
+           </div>
+        
+    </div>
+    <div class="container  document">
+        <div class="row">
+            <div class="col-md-6 docs">
+                <h2>Their lives depend on <br>
+                    your donation</h2>
+                    <p>Lorem ipsum dolor sit amet, usu cu esse possit <br>
+                        referrentur, at eam falli deterruisset. No duo populo <br>
+                        animal noluisse, enim<br>
+                        Lorem ipsum dolor sit amet, usu cu esse possit <br>
+                        referrentur, at eam falli deterruisset.</p>
+                    <a class="btn-contribute" target="_blank" href="https://www.savethechildren.org/us/where-we-work/bangladesh">How to contribute</a>
+            </div>
+            <div class="col-md-6 docs img">
+                <img src="images/donation8.jpg" alt="" height="300px" width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="container  document">
+        <div class="row">
+            <div class="col-md-6 docs">
+                <img src="images/donation7.jpg" alt="" height="300px" width="80%">
+                
+            </div>
+            <div class="col-md-6 docs">
+                <h2>Their lives depend on <br>
+                    your donation</h2>
+                    <p>Lorem ipsum dolor sit amet, usu cu esse possit <br>
+                        referrentur, at eam falli deterruisset. No duo populo <br>
+                        animal noluisse, enim<br>
+                        Lorem ipsum dolor sit amet, usu cu esse possit <br>
+                        referrentur, at eam falli deterruisset.</p>
+                    <a class="btn-contribute" target="_blank" href="https://www.savethechildren.org/us/where-we-work/bangladesh">How to contribute</a>
+            </div>
+        </div>
+    </div>
+    <div class="container update">
+        <h3>Get My Updates</h3>
+        <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli 
+           <br> deterruisset. No duo populo animal noluisse, enim</p>
+           <div class="email">
+            <input type="email" name="email" id="" placeholder="email"><button>Suscribe</button>
+           </div>
+    </div>
+ <script>
+    const input=document.getElementById('input');
+    function set(btn){
+        input.value=btn;
+    }
+    let donated=0;
+    function amount(){
+       
+        const total=parseInt(input.value)
+        donated=donated+total;
+        document.getElementById("total").innerHTML = donated ;
+    }
+
+     
+ </script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
