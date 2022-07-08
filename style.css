@@ -13,13 +13,14 @@ body{
 }
 .content{
     color: white;
-    
     margin-bottom: 50%;
     text-align: center;
-    line-height: 0%;
     position:absolute;
     top: 35%; bottom: 0; left: 0; right: 0;
     margin: auto;
+}
+.content p{
+    margin-bottom: 2px;
 }
 .btn{
     margin-top: 15px;
@@ -38,7 +39,7 @@ body{
 }
 .donateToday p{
     margin-top:35px;
-    line-height: 0%;
+    margin-bottom: 2px;
 }
 .btn2{
     margin-top: 30px;
@@ -104,7 +105,7 @@ body{
     background-color: #EDF5F6;
     padding-top: 10px;
     padding-bottom: 30px;
-    border-radius: 5%;
+    border-radius: 15px;
     margin-right: 20px;
 }
 .food:hover{
@@ -116,7 +117,7 @@ body{
     background-color: #FFEEEE;
     padding-top: 10px;
     padding-bottom: 30px;
-    border-radius: 5%;
+    border-radius: 15px;
     margin-right: 20px;
 }
 .shelter:hover{
@@ -128,7 +129,7 @@ body{
     background-color: #FFF4D5;
     padding-top: 10px;
     padding-bottom: 30px;
-    border-radius: 5%;
+    border-radius: 15px;
     margin-right: 20px;
 }
 .education:hover{
@@ -170,14 +171,14 @@ body{
 }
 .email input{
     border-radius: 5px;
-    width: 30%;
+    width: 300px;
     height: 40px;
     background-color: #D8D8D8;
     border: none;
 }
 .email button{
     height: 40px;
-    width:18% ;
+    width:80px ;
     color: white;
     background-color: #FF5959;
     border: none;
