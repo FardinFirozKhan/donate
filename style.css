@@ -98,39 +98,45 @@ body{
     align-items: center;
     margin-top: 70px;
     margin-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .food{
-    width: 30%;
+    margin: 10px;
     height: auto;
     background-color: #EDF5F6;
     padding-top: 10px;
     padding-bottom: 30px;
     border-radius: 15px;
     margin-right: 20px;
+    flex: 1 1 30%;
 }
 .food:hover{
     background-color:#adc3c6 ;
 }
 .shelter{
-    width: 30%;
+     margin: 10px;
     height: auto;
     background-color: #FFEEEE;
     padding-top: 10px;
     padding-bottom: 30px;
     border-radius: 15px;
     margin-right: 20px;
+    flex: 1 1 30%;
 }
 .shelter:hover{
     background-color: #ecd6d6;
 }
 .education{
-    width: 30%;
+    margin: 10px;
     height: auto;
     background-color: #FFF4D5;
     padding-top: 10px;
     padding-bottom: 30px;
     border-radius: 15px;
     margin-right: 20px;
+    flex: 1 1 30%;
 }
 .education:hover{
     background-color: #e1d2a9;
